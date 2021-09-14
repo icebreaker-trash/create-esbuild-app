@@ -10,7 +10,7 @@
     "src"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish:npm": "yarn publish --registry https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
