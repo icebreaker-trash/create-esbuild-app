@@ -1,8 +1,9 @@
 {
   "name": "create-esbuild-app",
-  "version": "1.0.0",
-  "description": "create-esbuild-app",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "create a npm pkg with esbuild and eslint",
+  "main": "bin/cli.js",
+  "module": "bin/cli.js",
   "type": "module",
   "bin": "bin/cli.js",
   "files": [
@@ -16,8 +17,12 @@
     "type": "git",
     "url": "git+https://github.com/sonofmagic/create-esbuild-app.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "esbuild",
+    "cli",
+    "kickstart"
+  ],
+  "author": "icebreaker",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sonofmagic/create-esbuild-app/issues"
